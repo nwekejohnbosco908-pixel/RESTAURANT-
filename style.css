@@ -1,0 +1,190 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbarNav {
+  text-align: center;
+}
+.navbar-brand img {
+  border-radius: 50%;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #111417;
+  border-radius: 5px;
+}
+.socialmediaicons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.socialmediaicons i {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.socialmediaicons i:hover {
+  color: #030ca9;
+  cursor: pointer;
+}
+
+#order {
+  background-color: rgba(255, 53, 26, 0.947);
+  padding: 8px 12px;
+}
+#orderbtn {
+  border: none;
+  background-color: yellow;
+  border-radius: 10px;
+  color: rgba(255, 53, 26, 0.947);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+#orderbtn:hover {
+  background-color: white;
+}
+#images {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#caption {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+}
+
+#caption:hover {
+  transition: 0.3s ease;
+  color: yellow;
+}
+
+#MENU {
+  background-color: yellow;
+  padding: 20px;
+}
+#menu-h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgba(255, 53, 26, 0.947);
+}
+
+.image-wrapper {
+  overflow: hidden;
+  gap: 30px;
+}
+.fixed-img {
+  width: 300px;
+  object-fit: cover;
+}
+.slider {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.slider-track {
+  display: flex;
+  animation: slide 6s infinite linear;
+}
+.slider-img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+#news-section {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+#news-img {
+  margin: 0 auto;
+  gap: 4%;
+  transition: 0.2s ease;
+}
+#news-img:hover {
+  transform: scale(1.05);
+}
+#promo {
+  margin-top: 50px;
+  background-color: rgba(255, 53, 26, 0.947);
+  padding: 20px;
+}
+#promo-h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+#people{
+  margin-top: 50px;
+  padding: 20px;
+}
+#people-h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgba(255, 53, 26, 0.947);
+}
+#people-p{
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+#store-locator{
+  background-color: rgb(255, 197, 52);
+  margin-top: 40px;
+  margin-top: 5px;
+}
+#locator{
+  font-size: 40px;
+  color:rgba(255, 53, 26, 0.947);
+  font-weight: bold;
+  margin-top: 20px;
+}
+.location{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+#footer{
+  background-color:rgba(255, 53, 26, 0.947) ;
+  padding: 20px;
+  color: white;
+  margin-top: 0%;
+  font-weight: bold;
+  text-align: center;
+}
+span{
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-bottom: 0%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-320px);
+  }
+}
